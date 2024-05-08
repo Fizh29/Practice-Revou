@@ -20,7 +20,7 @@ rl.question("Masukkan bilangan yang ingin dipangkatkan: ", (bilangan) => {
             hasil = hasil * angka;
             counter++;
         }
-
+//while akan looping bila hasilnya masih true
         console.log(hasil);
         rl.close();
     });

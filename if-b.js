@@ -1,12 +1,12 @@
 // Program untuk menentukan jenis segitiga berdasarkan panjang sisi
-const readline = require('readline');
-
-const rl = readline.createInterface({
+const readline = require('readline'); //ini fungsi keperluan buat ngejalanin fungsi readline module
+//readline module bisa digunakan buat interface input
+const rl = readline.createInterface({ //bikin fungsi baru namanya readline namanya interface interfacenya berupa input output
     input: process.stdin,
     output: process.stdout
 })
 
-rl.question("Masukkan panjang sisi 1: ", (sisi1) => {
+rl.question("Masukkan panjang sisi 1: ", (sisi1) => { //nah ini adalah urutan interfacenya pertanyaan 1 sampe check triangle abis itu baru diclose
 
     rl.question("Masukkan panjang sisi 2: ", (sisi2) => {
             

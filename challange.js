@@ -16,18 +16,6 @@ rl.question("Masukkan batas bawah: ", (batasBawah) => {
     });
 });
 
-// Fungsi untuk mengecek apakah sebuah bilangan prima
-function isPrime(number) {
-    if (number <= 1) {
-        return false;
-    }
-    for (let i = 2; i <= Math.sqrt(number); i++) {
-        if (number % i === 0) {
-            return false;
-        }
-    }
-    return true;
-}
 
 // Fungsi untuk mencari bilangan prima di antara batas bawah dan batas atas, lalu mencetaknya
 function findPrimeNumbers(batasBawah, batasAtas) {
@@ -38,4 +26,21 @@ function findPrimeNumbers(batasBawah, batasAtas) {
             console.log(i);
         }
     }
+}
+
+
+// Fungsi untuk mengecek apakah sebuah bilangan prima
+function isPrime(number) {
+    if (number <= 1) { //4
+        return false;
+        //true
+    }
+    for (let i = 2; i <= Math.sqrt(number); i++) { // akar 4 = 2
+        // i = 4 <= 2
+        if (number % i === 0) {
+            return false;
+            
+        }
+    }
+    return true;
 }

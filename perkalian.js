@@ -1,12 +1,12 @@
 
-a = 10
-b = 5 
-c = 100
-d = 10
+m = 10
+n = 5 
+o = 100
+p = 10
 
 
-console.log(perkalian(a, b))
-console.log(perkalian(c, d))
+console.log(perkalian(m, n))
+console.log(perkalian(o, p))
 
 function perkalian(a, b) {
     hasil = a * b
