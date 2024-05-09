@@ -21,3 +21,4 @@ if (jumlahBeli <= produk.stok) {
 } else {
     console.log("Maaf, stok produk tidak mencukupi untuk jumlah pembelian yang diminta.");
 }
+//array object challenge
